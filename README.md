@@ -13,18 +13,18 @@ Inputs include:
   -  Passing, Rushing, and Total Yards (Team and Opponent)
   -  Two Point Attempts and Conversions, Safeties, and First Downs (Team and Opponent) 
  
-Data comes from the [Pro Football Reference](https://www.pro-football-reference.com/) and dates back to 1994, when the two-point conversion was introduced in the NFL.
+Data comes from [Pro Football Reference](https://www.pro-football-reference.com/) and dates back to 1994, when the two-point conversion was introduced in the NFL.
 
 ## Methodology
-- Data Cleaning
+- **Data Cleaning**
   -  Replaced null values with appropriate values
   -  Normalized variables in a 0-1 range to improve data integrity
   -  Removed unnecessary data, such as Season and Expected Points
-- Model
+- **Model**
   - Built a **multilayer perceptron neural network** using Python's scikit-learn library
   - Outputs:
     - **Classification** -> Scorigami
-- Forecasting
+- **Forecasting**
   - Averaged statistics for each team's former seventeen games
   - Applied a **randomized Poisson distribution** 10,000 times to each variable
 
