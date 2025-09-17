@@ -30,7 +30,7 @@ Data comes from [Pro Football Reference](https://www.pro-football-reference.com/
 
 ## Results
 - **Scorigami Classification:** ~97.1% accuracy
-- **Forecast Results:** Matches range from 0 to 155 predicted scorigamis (0% to 1.55%)
+- **Forecast Results:** Simulations range from 0% to 1.55% of matches ending in a scorigami
 
 ## Limitations
 - **Scorigami Rarity:** Only 5.5% of NFL games end with unique scores; thus, the model may be "guessing correctly" for guessing exclusively non-scorigamis.
